@@ -1,0 +1,60 @@
+@import './mixin';
+.mint-swipe-indicators{
+  left: 85%;
+  bottom: px2rem(80px);
+}
+.mint-swipe-indicator{
+  width: px2rem(16px);
+  height: px2rem(16px);
+}
+.mint-searchbar-inner{
+  height: px2rem(40px);
+}
+.mint-searchbar{
+  padding: px2rem(12px) px2rem(16px);
+}
+.mint-searchbar-inner .mintui-search{
+  @include font-dpr(12px)
+}
+.mint-searchbar-core{
+  @include font-dpr(12px);
+  padding-left: 1%;
+}
+.mint-search-list{
+  padding-top: px2rem(44px);
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: px2rem(3px) solid $primaryColor;
+  color: $primaryColor;
+  margin-bottom: px2rem(-3px);
+}
+.mint-navbar .mint-tab-item {
+  padding: px2rem(30px) 0;
+  @include font-dpr(16px);
+}
+.mint-tab-item-label{
+  @include font-dpr(12px);
+}
+/*.app-videoPlay .mint-loadmore-bottom{
+  margin-bottom: 0;
+}*/
+.mint-indicator-text{
+  @include font-dpr(14px)
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+  text-align: right;
+  bottom:px2rem(84px);
+  width: 95%;
+  margin-left: 2.5%;
+}
+.swiper-pagination-bullet{
+  width: px2rem(8px);
+  height: px2rem(8px);
+  border-radius: 50%;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0 px2rem(5px);
+}
+.mint-indicator-mask{
+  z-index: 999;
+}

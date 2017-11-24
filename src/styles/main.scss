@@ -1,0 +1,57 @@
+@import './base/public';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #324057;
+}
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#app .container {
+  width: 1200px;
+  margin: 0px auto;
+}
+.fi-affix {
+  position: fixed;
+  z-index: 10;
+}
+.dotstate {
+  width: 8px;
+  height: 8px;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  margin: 0 5px !important;
+  vertical-align: middle;
+}
+
+.ghost {
+  color: #ec4740;
+  border: 1px solid #ec4740;
+  background: #faeded;
+  margin: 10px 0;
+}
+
+.el-form--inline {
+  background: #f4f5f6;
+  padding: 22px 10px 0;
+}
+
+.el-table th {
+  background-color: #f5f7fa;
+  color: #5a5e66;
+}
+
+.el-dialog--center .el-dialog__header {
+  background: #edf3f3;
+  padding-top: 10px;
+}

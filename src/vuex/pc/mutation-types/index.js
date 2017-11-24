@@ -1,0 +1,5 @@
+export const SWITCH_MENU = 'SWITCH_MENU';
+export const SELECT_VIDEO_TYPE = 'SELECT_VIDEO_TYPE';
+export const CHANGE_STICKCOURSES = 'CHANGE_STICKCOURSES';
+export const GET_SPID = 'GET_SPID';
+export const GET_PREVIEW_URL = 'GET_PREVIEW_URL';
